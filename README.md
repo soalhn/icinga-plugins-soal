@@ -1,21 +1,21 @@
-icinga-plugins-soal
+# icinga-plugins-soal
 ===================
 
 Custom Icinga/Nagios plugins
 
-# Available plugins
+## Available plugins
 
-## check_activemq.py
+### check_activemq.py
 
 Icinga/Nagios plugin to check ActiveMQ instance, by subscribing
 to a queue and sending and reading a message.
 
-### Dependencies
+#### Dependencies
 
 The plugin needs module Stompest:
 http://nikipore.github.io/stompest/index.html
 
-## Installation
+#### Installation
 
 Copy the plugins you need to Icinga/Nagios' plugins location, usually:
 /usr/lib/nagios/plugins
